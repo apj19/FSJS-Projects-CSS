@@ -45,6 +45,18 @@ div>img{
     list-style: none;
 }
 
+.list-item:first-child::after{
+    content: '\02C7';
+    font-size:2em;
+    position: absolute;
+    left: 343px;
+    top: 28px;
+
+   
+   
+   
+}
+
 .button-small{
     background-color: #a827c4;
     color: white;
